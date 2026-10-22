@@ -1,6 +1,15 @@
-# Fretex
+# MVP de Fretex - Projeto da matéria de Empreendedorismo
 
 Página única para pedir orçamento de frete em Sinop – MT. O pedido cai numa planilha do Google, e a equipe chama os motoristas.
+
+## Desenvolvedores 
+
+- Anna Carolina
+- Carla Eduarda
+- João Antônio
+- João Manuel
+- Raul Blaskievicz
+- Ruan Emanuel
 
 ## Stack
 Vue 3 + Vite + Vuetify · Axios (API de bairros) · Google Apps Script + Google Sheets
