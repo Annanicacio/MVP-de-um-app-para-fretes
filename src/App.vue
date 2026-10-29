@@ -84,6 +84,7 @@ function novoPedido() { Object.assign(f, vazio()); enviado.value = false }
             <BairroSelect v-model="f.origem" label="Saída" :bairros="bairros" :carregando="carregandoBairros" :falhou="falhouBairros" :regras="[obrigatorio]" />
             <div class="mt-4">
               <BairroSelect v-model="f.destino" label="Destino" :bairros="bairros" :carregando="carregandoBairros" :falhou="falhouBairros" :regras="[obrigatorio]" />
+              <small>Neste momento, estamos verificando a distância para calcular o valor. Não é necessário enviar o número da localidade ainda.</small>
             </div>
 
             <h2 class="titulo mt-8">Seus dados para contato</h2>
