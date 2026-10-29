@@ -98,8 +98,8 @@ function novoPedido() { Object.assign(f, vazio()); enviado.value = false }
             <v-btn type="submit" class="mt-4 font-weight-black" color="primary" size="x-large" block rounded="xl" :loading="enviando" prepend-icon="mdi-truck-fast">
               Solicitar frete
             </v-btn>
-            <p class="text-caption text-medium-emphasis text-center mt-3">
-              Ao solicitar, você concorda em compartilhar seu telefone com os motoristas para receber propostas.
+            <p class="text-caption titulo text-center mt-3">
+              Ao solicitar, você concorda em compartilhar seus dados com os motoristas para receber propostas.
             </p>
           </v-card>
         </v-form>
