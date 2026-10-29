@@ -69,8 +69,8 @@ function novoPedido() { Object.assign(f, vazio()); enviado.value = false }
         <v-card v-if="enviado" class="pa-8 text-center" rounded="xl" elevation="2">
           <v-avatar color="primary" size="84"><v-icon icon="mdi-check-bold" size="48" color="white" /></v-avatar>
           <h2 class="text-h5 font-weight-bold mt-4">Pedido recebido!</h2>
-          <p class="text-h6 text-primary font-weight-bold mt-2">Entraremos em contato em até 30 minutos!</p>
-          <p class="mt-1">Vamos chamar os motoristas e falar com você pelo telefone informado.</p>
+          <p class="text-h6 text-primary font-weight-bold mt-2">Muito Obrigada Pelo Interesse!</p>
+          <p class="mt-1">Em breve nossa plataforma estará disponível e entraremos em contato.</p>
           <v-btn class="mt-5" color="primary" size="large" @click="novoPedido">Fazer outro pedido</v-btn>
         </v-card>
 
