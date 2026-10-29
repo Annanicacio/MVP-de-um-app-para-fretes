@@ -80,7 +80,7 @@ function novoPedido() { Object.assign(f, vazio()); enviado.value = false }
             <CargaSelector v-model="f.carga" :erro="erroCarga" />
             <v-switch v-model="f.ajudante" class="mt-2" color="primary" label="Preciso de ajudante" hide-details />
 
-            <h2 class="titulo mt-8">Saída e destino</h2>
+            <h2 class="titulo mt-8">Saída e destino (Digite somente cidade, rua e bairro)</h2>
             <BairroSelect v-model="f.origem" label="Saída" :bairros="bairros" :carregando="carregandoBairros" :falhou="falhouBairros" :regras="[obrigatorio]" />
             <div class="mt-4">
               <BairroSelect v-model="f.destino" label="Destino" :bairros="bairros" :carregando="carregandoBairros" :falhou="falhouBairros" :regras="[obrigatorio]" />
